@@ -1,0 +1,10 @@
+/** Importar Font-awesome */
+@import '~font-awesome/scss/font-awesome';
+
+/** Importar Tailwind.css */
+@tailwind preflight;
+@tailwind utilities;
+
+/** Importar partials */
+@import './base';
+@import './helpers';
