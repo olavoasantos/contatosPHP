@@ -14506,7 +14506,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * definida pelo componente pai.
      */
     actionClass: function actionClass() {
-      return 'contact:action flex-center h-8 w-8 text-2xl hover:bg-' + this.bg + ' text-' + this.text + ' rounded-full cursor-pointer';
+      return 'contact:action flex-center h-8 w-8 text-2xl mx-2 hover:bg-' + this.bg + ' text-' + this.text + ' rounded-full cursor-pointer';
     }
   },
 
@@ -14570,7 +14570,8 @@ var render = function() {
             "div",
             {
               staticClass:
-                "contact:actions flex items-center justify-end absolute pin-r h-full px-4 bg-white"
+                "contact:actions flex items-center justify-end absolute pin-t h-full bg-white",
+              staticStyle: { right: "1.0rem" }
             },
             [
               _c(
